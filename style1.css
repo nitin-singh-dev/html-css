@@ -1,0 +1,396 @@
+
+            *
+            {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-style: italic;
+               
+            }
+            
+            .outer
+            {
+                min-height: 1500px;
+                width: 100%;
+                
+            }
+            .header
+             {
+                height: 50px;
+                width: 100%;
+                background:rgb(110, 12, 12);
+                color: rgb(224, 196, 196);
+                font-size: larger;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+             }
+             .header .logo b
+             {
+                color:yellow;
+                font-size: 25px;
+                
+             }
+             .header input
+             {
+                padding-left: 5px;
+                color: blue;
+             }
+             
+             .navbar
+             {
+                height: 50px;
+                width: 100%;
+                background:rgb(247, 219, 219);
+                
+            }
+           
+             .navbar ul 
+             {
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                padding: 15px;
+            }
+            .navbar a
+            {
+                text-decoration: none;
+            }
+            .navbar a:hover
+            {
+                color: green;
+                font-style: italic;
+                background: orange;
+            }            
+
+
+            .Slider
+            {
+                background-image:url(flo2.png);
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 300px;
+                width: 100%;
+                padding: 10px 20px;
+                text-align: center;
+                
+                
+            }
+            .Slider h1
+            {
+                padding: 10px;
+                text-align: center;
+                
+            }
+            .Slider button
+            {
+                padding: 3px 20px;
+                background: orangered;
+                margin: 20px;
+            }
+              .About
+              {
+                width: 100%;
+                height: 250px;
+                background: rgb(156, 60, 60);
+                padding: 10px 20px;
+                text-align: center;
+                margin-top: 0;
+              }
+              .About h1
+              {
+                text-align: center;
+                padding: 10px;
+                margin-top: 0;
+              }
+              .About button
+              {
+                
+                background: orangered;
+                padding-top: 2px 2px;
+                margin: 10px;
+                width: 100px;
+              }
+               .contact-form
+             {
+                height: 300px; 
+                width: 100%;
+                background: rgb(219, 115, 115);
+                text-align: center;
+             }
+             .contact-form h1
+             {
+                color: white;
+                padding:0px;
+             }
+             .contact-form form
+             {
+                height: 210px;
+                width: 400px;
+                background: rgb(192, 59, 81);
+                background-image: url(nitinsingh.jpeg);
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                border-radius: 20px;
+             }
+             .contact-form label
+             {
+                text-align: left;
+                padding:2px;
+             }
+             .contact-form input
+             {
+                width: 80%;
+                margin:4px;
+                height: 25px;
+                padding: 3px 20px;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+             }
+             .contact-form button
+             {
+                width: 80%;
+                margin-top: 10px;
+                padding:5px;
+                background: green;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+             }
+            .gallery
+            {
+                height:500px;
+                width: 100%;
+                background: rgb(247, 243, 243);
+                display:flex;
+                flex-wrap: wrap;
+              /* border: 3px solid red !important;*/
+            }
+             .gallery h1
+             {
+                text-align: center;
+                padding: 5px 0px;
+                width: 100%;
+             }
+            .gallery img
+            {
+                height: 190px;
+                width:30%;
+                margin: 5px;
+                
+            }
+
+            .cards
+            {
+                height: 200px;
+                width: 100%;
+                background:white;
+                padding-bottom: 20px;
+                background-size: cover;
+                
+            }
+             
+            .cards h1
+            {
+                text-align: center;
+                padding: 20px 0px;
+            }
+
+            .container
+            {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .cards .training-items
+            {
+                flex-basis: 30%;
+                box-shadow: 0px 0px 50px 5px rgb(228, 195, 195);
+                background: white;
+                text-align: center;
+                padding: 10px 0px;
+                margin: 10px 0px;
+                transition: all 0.8s ease-out;
+            }
+
+            .cards .training-items:hover
+            {
+                background:pink; 
+                transform: translateY(-10px) scale3d(1,1.0,0.1);
+                box-shadow: 1px 3px 1px 3px rgb(224, 196, 196);
+            }
+               .training-items h3
+               {
+                padding: 10px 0px;
+               }
+
+            .training-items img 
+            {
+                height: 60px;
+                width: 70px;
+                text-align: center;
+            }
+            .training-items p
+            {
+                font-size: 10px;
+                padding: 10px;
+            }
+            .training-items button
+            {
+                color: rgb(53, 53, 141);
+                background: rgb(192, 81, 40);
+                padding: 5px 5px;
+                border: none;
+                margin: 5px 0px; border-radius: 10px;
+            }
+
+            .training-items button:hover
+            {
+                color: red;
+                background: green;
+            }
+
+             /* border: 3px solid green !important;*/
+             .footer
+             {
+                min-height: 700px;
+                background: rgb(247,243,243);
+                width: 100%;
+               
+             }
+             .footer .a
+             {
+                height: 323px;
+                background: rgb(247,243,243);
+                width: 100%;
+                margin-top: 15px;
+             }
+
+             
+             .footer .ufooter
+             {
+                height: 250px;
+                background: black;
+                width: 100%;
+             }
+             .ufooter h3
+             {
+                color: white;
+                text-align: center;
+                padding: 10px;
+             }
+             .ufooter p
+             {
+                color: antiquewhite;
+                font-size: 10px;
+                padding: 10px 30px;
+             }
+             .ufootertop
+             {
+                display: flex;
+               
+             }
+             .ufootertop .footer-links
+             {
+                flex-basis: 33%;
+             }
+             
+            .footer-links h3
+            {
+                color: white;
+                text-align: left;
+            }
+            .footer-links ul
+            {
+                list-style: none;
+                text-align: left;
+                font-size: 10px;
+                padding:10px 15px;
+            }
+            .footer-links ul li
+            {
+                padding-top:4px ;
+            }
+            .footer-links a
+            {
+                text-decoration: none;
+                color: white;
+                padding-top:2px ;
+            }
+            .Contact-Us
+            {
+                color: white;
+                padding:8px ;
+                flex-basis: 33%;
+            }
+            .social-media
+            {
+              color: white;
+            }
+             .social-media ul
+             {
+               list-style: none;
+             }
+             
+             .footer .lfooter
+             {
+                height: 100px;
+                width:100% ;
+                background: black;
+                
+               
+                }
+             .lfooter ul
+             {
+                
+                color: white;
+                display:flex;
+                padding: 5px 0px;
+             }
+             .lfooter ul li
+             {
+              list-style: none;
+              text-align: center;
+              cursor: pointer;
+             }
+             .lfooter ul li i
+             {
+                font-size: 50px;
+                padding: 10px 40px;
+                transition: 1.6s;
+             }
+             .lfooter ul li i:hover
+             {
+                color: orangered;
+                transition: 1.8s;
+             }
+             .footer-bottom
+             {
+                width: 100%;
+                height: 50px;
+                background: black;
+                text-align: center;
+             }
+            .footer-bottom p
+             {
+                padding: 12px;
+                color: white;
+             }
+             .footer-bottom b
+             {
+                font-weight: bolder;
+             }
+             .footer-bottom a
+             {
+                text-decoration: none;
+                color: yellow;
+             }
+            
